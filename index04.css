@@ -1,0 +1,77 @@
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF5733;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Estilos da seção "Sobre o Jogo" */
+.about {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Estilos da seção "Capturas de Tela" */
+.screenshots {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+}
+
+.screenshot img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+/* Estilos da seção "Recursos do Jogo" */
+.features {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilos do rodapé */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #aaa;
+}

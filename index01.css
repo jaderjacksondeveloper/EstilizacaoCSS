@@ -1,0 +1,33 @@
+/* Estilo para o contêiner */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px; 
+    background-color: #f0f0f0;
+}
+
+/* Estilo para as caixas */
+.box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: 2px solid #000;
+}
+
+.red {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.blue {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.green {
+    background-color: #00ff00;
+    color: #000;
+}

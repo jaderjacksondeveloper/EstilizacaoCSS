@@ -1,0 +1,43 @@
+/* Estilo para o cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Estilo para a barra lateral */
+.sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilo para o conteúdo principal */
+.main-content {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Estilo para os links no menu */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
